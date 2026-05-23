@@ -5,7 +5,7 @@
 | ------------ | -------------------------- |
 | DNS Zone     | `lab.demo`                 |
 | Reverse Zone | `26.168.192.in-addr.arpa` |
-| DNS Server   | `192.168.25.10`           |
+| DNS Server   | `192.168.26.10`           |
 | NS Server    | `ns1.lab.demo`             |
 | Server       | `server.lab.demo`          |
 | Client       | `client.lab.demo`          |
