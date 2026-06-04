@@ -16,7 +16,7 @@ curl -fsSL https://get.docker.com | sudo sh
 sudo apt install docker-compose-plugin -y
 
 #Clone the mailcow repository
-cd /opt
+cd /~
 
 git clone https://github.com/mailcow/mailcow-dockerized
 
