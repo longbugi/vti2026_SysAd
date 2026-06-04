@@ -8,7 +8,7 @@ sudo hostnamectl set-hostname mail
 
 #Config hosts
 sudo vim /etc/hosts
-192.168.100.10 mail.lab.local mail
+echo "192.168.100.10 mail.lab.local mail" | sudo tee -a /etc/hosts
 
 #Install docker
 curl -fsSL https://get.docker.com | sudo sh
