@@ -55,6 +55,8 @@ echo "<h1>Backend App - Port 8080</h1><p>Reverse Proxy hoạt động!</p>" | su
 cd /var/www/backend
 sudo python3 -m http.server 8080
 
+#Mở thêm một ssh sesion khác để connect vào server và làm tiếp
+
 ```
 
 
