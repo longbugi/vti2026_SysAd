@@ -48,6 +48,7 @@ sudo systemctl status nginx
 
 ```bash
 # Tạo thư mục và file test
+sudo rm /etc/nginx/sites-enabled/default #remove default site
 mkdir -p /var/www/backend
 echo "<h1>Backend App - Port 8080</h1><p>Reverse Proxy hoạt động!</p>" | sudo tee /var/www/backend/index.html
 
