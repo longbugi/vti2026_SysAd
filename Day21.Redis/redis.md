@@ -73,10 +73,6 @@ upstream backend {
 # Rate limiting
 limit_req_zone $binary_remote_addr zone=api:10m rate=10r/s;
 
-upstream backend {
-    server 127.0.0.1:8080;
-}
-
 server {
     listen 80 default_server;
     server_name _;
