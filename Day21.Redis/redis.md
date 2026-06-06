@@ -47,6 +47,18 @@ sudo systemctl status nginx
 ### 1.3. Cấu Hình Nginx Reverse Proxy 
 
 ```bash
+# Tạo thư mục và file test
+mkdir -p /var/www/backend
+echo "<h1>Backend App - Port 8080</h1><p>Reverse Proxy hoạt động!</p>" | sudo tee /var/www/backend/index.html
+
+# Chạy Python HTTP server tại port 8080
+cd /var/www/backend
+sudo python3 -m http.server 8080
+
+```
+
+
+```bash
 sudo vim /etc/nginx/sites-available/lab-app 
 ```
 
